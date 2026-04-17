@@ -1,17 +1,24 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "clackken-vni",
-  "description": "Quality Gate Pipeline marketplace",
   "owner": {
     "name": "hungdang",
     "email": "clackken.vni@gmail.com"
   },
+  "metadata": {
+    "description": "Quality Gate Pipeline marketplace"
+  },
   "plugins": [
     {
       "name": "quality-gate-pipeline",
+      "source": "./",
       "description": "Evidence-driven 8-stage quality gate pipeline for Claude Code + OMC",
-      "source": ".",
-      "category": "productivity"
+      "version": "1.0.0",
+      "author": {
+        "name": "hungdang"
+      },
+      "repository": "https://github.com/clackken-vni/quality-gate-pipeline",
+      "license": "MIT",
+      "category": "workflow"
     }
   ]
 }
