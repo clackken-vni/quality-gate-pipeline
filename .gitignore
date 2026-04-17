@@ -2,3 +2,4 @@ node_modules/
 .omc/
 .memory/
 package-lock.json
+CLAUDE.md
