@@ -1,0 +1,7 @@
+{
+  "name": "quality-gate-pipeline",
+  "description": "Evidence-driven 8-stage quality gate pipeline for Claude Code + OMC",
+  "author": {
+    "name": "hungdang"
+  }
+}
