@@ -1,6 +1,6 @@
 {
   "name": "quality-gate-pipeline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Evidence-driven quality gate pipeline for Claude Code + OMC",
   "entrySkill": "pipeline",
   "skills": [
