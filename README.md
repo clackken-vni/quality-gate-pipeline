@@ -1,17 +1,17 @@
 # Quality Gate Pipeline
 
 [![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/clackken-vni/quality-gate-pipeline)
-[![OMC](https://img.shields.io/badge/OMC-%3E%3D4.12.0-green.svg)](https://github.com/clackken-vni/oh-my-claudecode)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-green.svg)](https://claude.ai/code)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 [![Category](https://img.shields.io/badge/category-workflow-purple.svg)](#)
 
 ---
 
-## 🎯 Plugin chính thức cho Oh-My-ClaudeCode (OMC)
+## 🎯 Plugin Claude Code - Quality Gate Pipeline
 
 **Evidence-driven 8-stage quality gate pipeline** đảm bảo chất lượng phần mềm thông qua quy trình kiểm soát nghiêm ngặt với bằng chứng xác thực tại mỗi stage.
 
-> Plugin này tích hợp sâu với Claude Code và Oh-My-ClaudeCode, cung cấp MCP-first pipeline với gate verdicts được tính toán bởi runtime, không phải model interpretation.
+> Plugin MCP-first hoạt động độc lập với Claude Code. Gate verdicts được tính toán bởi runtime, không phải model interpretation. Tương thích với Oh-My-ClaudeCode (OMC) như một plugin bổ sung.
 
 ---
 
@@ -32,17 +32,15 @@
 
 ## 📦 Cài đặt
 
-### Qua OMC Marketplace (Khuyên dùng)
+### Qua Claude Plugin Marketplace (Khuyên dùng)
 
 ```bash
-# Trong Claude Code
-/omc-setup
+# Thêm marketplace
+claude plugin marketplace add https://github.com/clackken-vni/quality-gate-pipeline.git
 
-# Hoặc trực tiếp
-/oh-my-claudecode:omc-setup
+# Cài đặt plugin
+claude plugin install quality-gate-pipeline@clackken-vni
 ```
-
-Chọn `quality-gate-pipeline` từ danh sách plugins có sẵn.
 
 ### Cài đặt thủ công
 
@@ -61,8 +59,8 @@ npm install
 | Yêu cầu | Phiên bản |
 |---------|-----------|
 | Node.js | >= 18.0.0 |
-| Oh-My-ClaudeCode | >= 4.12.0 |
 | Claude Code CLI | Latest |
+| Oh-My-ClaudeCode (optional) | >= 4.12.0 |
 
 ---
 
