@@ -12,7 +12,7 @@
       "name": "quality-gate-pipeline",
       "source": "./",
       "description": "Evidence-driven 8-stage quality gate pipeline for Claude Code + OMC",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "hungdang"
       },
