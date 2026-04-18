@@ -1,8 +1,14 @@
 {
   "mcpServers": {
     "quality-gate-pipeline": {
-      "command": "node",
-      "args": ["--import", "tsx", "server.ts"],
+      "command": "npx",
+      "args": [
+        "--yes",
+        "--prefix",
+        "${CLAUDE_PLUGIN_ROOT}",
+        "tsx",
+        "${CLAUDE_PLUGIN_ROOT}/server.ts"
+      ],
       "cwd": "${CLAUDE_PLUGIN_ROOT}"
     }
   }
