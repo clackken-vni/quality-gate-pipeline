@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "quality-gate-pipeline": {
+      "command": "node",
+      "args": ["--import", "tsx", "server.ts"],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}"
+    }
+  }
+}

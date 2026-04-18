@@ -7,5 +7,5 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["lib/**/*.ts", "tests/**/*.ts"]
+  "include": ["lib/**/*.ts", "tests/**/*.ts", "server.ts"]
 }
