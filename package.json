@@ -8,7 +8,7 @@
     "typecheck": "tsc --noEmit",
     "test": "bash scripts/verify.sh",
     "smoke": "bash scripts/verify.sh",
-    "start:mcp": "npm install --no-fund --no-audit --silent && node --import tsx server.ts",
+    "start:mcp": "node --import tsx server.ts",
     "e2e": "node --import tsx --test tests/e2e/pipeline-all-phases.e2e.ts tests/e2e/pipeline-failure-paths.e2e.ts tests/e2e/pipeline-integrity.e2e.ts",
     "e2e:all": "bash scripts/e2e-all-phases.sh"
   },

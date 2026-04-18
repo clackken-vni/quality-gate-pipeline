@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "quality-gate-pipeline": {
-      "command": "npm",
-      "args": ["run", "start:mcp"],
+      "command": "node",
+      "args": ["--import", "tsx", "server.ts"],
       "cwd": "${CLAUDE_PLUGIN_ROOT}"
     }
   }
